@@ -1,6 +1,6 @@
 --Modified comments2
 
-CREATE OR REPLACE PROCEDURE edw.sp_dim_groupMODIFIED2(in_src_last_modified "TIMESTAMP",in_run_id "int4",in_job_name "varchar") 
+CREATE OR REPLACE PROCEDURE edw.sp_dim_groupMODIFIED3(in_src_last_modified "TIMESTAMP",in_run_id "int4",in_job_name "varchar") 
 LANGUAGE plpgsql AS $$
 
 DECLARE
